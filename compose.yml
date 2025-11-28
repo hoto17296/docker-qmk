@@ -1,0 +1,6 @@
+services:
+  qmk:
+    build: .
+    volumes:
+      - ./keyboards:/qmk_firmware/keyboards
+      - ./build:/qmk_firmware/.build
